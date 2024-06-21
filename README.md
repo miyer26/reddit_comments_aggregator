@@ -69,3 +69,5 @@ The input YAML file takes in the config file and produces the summary in the for
 ``` 
 http://localhost:8000/get_output/
 ```
+Here is an example output:
+"Based on the information provided from various Reddit comments, here are the top 5 most reliable SUV car models and why they were selected:\n\n1. Toyota Land Cruiser\n\"Land Cruiser\" - This comment suggests the Toyota Land Cruiser is very reliable, even with high mileage.\nhttps://reddit.com/r/whatcarshouldIbuy/comments/16bip0j/whats_a_vehicle_that_you_would_buy_even_with/jzdczdl/\n\n2."
