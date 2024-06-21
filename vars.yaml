@@ -1,0 +1,31 @@
+anthropic_api_key: Placeholder
+
+llm_model: "claude-3-opus-20240229"
+llm_temperature: 0.1
+
+sentiment_model: "distilbert-base-uncased-finetuned-sst-2-english"
+
+reddit_credentials:
+  client_id: Placeholder
+  client_secret: Placeholder
+  username: Placeholder
+  password: Placeholder
+  user_agent: Placeholder
+
+reddit_search_query: "what is the most reliable compact, non-luxury car?"
+
+search_query_parameters:
+  sort: 'relevance'
+  limit: 1
+
+subreddit: 'whatcarshouldIbuy'
+
+comment_parameters:
+  depth: 1
+  limit: 5
+  sort: 'top'
+
+system_message: "I will be giving you a bunch of concatenated information from Reddit regarding cars and thier reliability. Leverage as much of this information as possible to determine and recommend the top 5 most reliable SUV car models. \
+    Explain why they were selected and other information about these car models. \
+    Under each statement, provide the exact part of the comment that is relevant and the associated URL. This will ensure that the information is verifiable"
+
